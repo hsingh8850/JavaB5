@@ -57,6 +57,8 @@ public class BasicDataTypes {
 //		HexaDecimal ==> 16 symbols [0->9 U (A, B, C, D, E, F)]  base16
 //		Binary ==> 2 symbols 0->1 base2
 
+//		int x2 = 056;
+		
 		int m = 0777;// octal
 		System.out.println(m);// printing will always be in decimal
 
@@ -67,7 +69,6 @@ public class BasicDataTypes {
 		System.out.println(p);
 
 	}
-
 }
 
 //f(x) = x^3
