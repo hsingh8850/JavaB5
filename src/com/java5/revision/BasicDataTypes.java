@@ -16,7 +16,7 @@ public class BasicDataTypes {// Class name will follow PascalCaseConvention
 //		a=c;
 //		d=c
 //		Float numbers
-		float e = 3.14F;//IEEE algo
+		float e = 3.14f;//IEEE algo
 		double f = 3.14;
 		System.out.println(f);
 
