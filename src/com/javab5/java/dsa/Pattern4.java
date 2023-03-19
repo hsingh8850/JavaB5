@@ -1,0 +1,33 @@
+package com.javab5.java.dsa;
+
+import java.util.Scanner;
+
+public class Pattern4 {
+
+//	num = 5
+//A
+//A B
+//A B C
+//A B C D
+//A B C D E
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the no of rows for the pattern : ");
+		int num = scanner.nextInt();// 5
+
+		for (int i = 0; i < num; i++) {// 0 1 2 3 4 [to change the rows]
+			char text = 'A';
+//			int asciOfA = 65;
+			for (int j = 0; j <= i; j++) {// this will control the contents of the individual row
+
+//				System.out.print((char) (asciOfA++) + " ");
+				System.out.print(text++ + " ");
+
+			}
+			System.out.println();
+		}
+
+	}
+
+}
